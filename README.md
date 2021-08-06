@@ -3,7 +3,7 @@
 
 **### IMPORTANT INFORMATION**
 
-All this NodeJS project was created using **NodeJS 14.04 LTS** with **Windows 10** Home Build 19043.
+All this NodeJS project was created using **NodeJS 14.17.4 LTS** with **Windows 10** Home Build 19043.
 
 This project also **require Moesif-CORS** plugin for bypassing CORS Policy, get it as an extension in your desired browser. In case of Chromium-based browser :
 
