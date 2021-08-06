@@ -1,1 +1,54 @@
 # MILESTONE2_08
+# How to Run
+
+**### IMPORTANT INFORMATION**
+
+All this NodeJS project was created using **NodeJS 14.04 LTS** with **Windows 10** Home Build 19043.
+
+This project also **require Moesif-CORS** plugin for bypassing CORS Policy, get it as an extension in your desired browser. In case of Chromium-based browser :
+
+[Moesif Origin & CORS Changer - Chrome Web Store (google.com)](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc)
+ 
+or else, the API will not work
+<br />
+<br />
+
+## Clone into your local repo
+    git clone https://github.com/apin014/MILESTONE2_08.git
+    cd MILESTONE2_08
+    cd src
+**MAKE SURE YOU'RE NOW IN YOUR LOCAL REPO SRC FOLDER**
+<br />
+<br />
+## Install all Dependencies and Prerequisities
+Usually, you can do this by 
+
+    npm install
+But Incase that doesn't work, you can look what dependencies are used by opening **package.json** file and install them one-by-one.
+as for now, dependencies used are Express and EJS that can be installed by
+
+    npm install express
+    npm install ejs
+<br />
+
+## Running the Localhost
+now, you can run the localhost server by typing in your terminal
+
+    node app
+and open with your browser http://localhost:3000
+You can change the port of the localhost in case the 3000 port interfere with other app. 
+you can change the port (for example to 8080) by altering the argument passed in **app.js** in function
+
+    app.listen(3000)
+change it to whatever port you want. For example, if you want to change itto 8080, you can change the code into
+  
+
+    app.listen(8080)
+And now you can access it by address http://localhost:8080
+<br />
+<br />
+
+## AND THEN YOU'RE DONE
+<br />
+
+> This readme part was written by Thirafi, send me message on LINE for further information or questions regarding how to use it
