@@ -1,4 +1,7 @@
 # MILESTONE2_08
+# Link Presentasi
+https://stevenwen81.github.io/Presentasi_Milestone_SPARTA/
+
 # How to Run
 
 **### IMPORTANT INFORMATION**
