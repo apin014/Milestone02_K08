@@ -17,17 +17,13 @@ if (scrollY !== 0) {
 }
 let infopr = document.querySelector('#info').getBoundingClientRect().y;
 let berandapr = document.querySelector('#beranda').getBoundingClientRect().y;
-let tautanpr = document.querySelector('#tautan').getBoundingClientRect().y;
 let adjust = -1*berandapr;
 infopr+=adjust;
 berandapr+=adjust;
-tautanpr+=adjust;
-if (scrollY >= infopr && scrollY < tautanpr) {
-    document.querySelector('#infonav').parentElement.classList.add('activelink');
-} else if(scrollY >= berandapr && scrollY < infopr) {
+if (scrollY >= berandapr && scrollY < infopr) {
     document.querySelector('#nav').parentElement.classList.add('activelink');
 } else {
-    document.querySelector('#tautannav').parentElement.classList.add('activelink');
+    document.querySelector('#infonav').parentElement.classList.add('activelink');
 }
 const listprovinsi = document.querySelectorAll('.listprovinsi');
 let allProvincedate = null;
@@ -150,17 +146,13 @@ window.addEventListener('scroll', () => {
     } else {
         nvcolor.setAttribute('style', 'background: rgba(0,0,0,0);')
     }
-    if (scrollY >= infopr && scrollY < tautanpr) {
-        const activelink = document.querySelector('.activelink');
-        activelink.classList.remove('activelink');
-        document.querySelector('#infonav').parentElement.classList.add('activelink');
-    } else if(scrollY >= berandapr && scrollY < infopr) {
+    if(scrollY >= berandapr && scrollY < infopr) {
         const activelink = document.querySelector('.activelink');
         activelink.classList.remove('activelink');
         document.querySelector('#nav').parentElement.classList.add('activelink');
     } else {
         const activelink = document.querySelector('.activelink');
         activelink.classList.remove('activelink');
-        document.querySelector('#tautannav').parentElement.classList.add('activelink');
+        document.querySelector('#infonav').parentElement.classList.add('activelink');
     }
 });
