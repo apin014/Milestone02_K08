@@ -17,8 +17,8 @@ or else, the API will not work
 <br />
 
 ## Clone into your local repo
-    git clone https://github.com/apin014/MILESTONE2_08.git
-    cd MILESTONE2_08
+    git clone https://github.com/apin014/Milestone02_K08.git
+    cd Milestone02_K08
     cd src
 **MAKE SURE YOU'RE NOW IN YOUR LOCAL REPO SRC FOLDER**
 <br />
