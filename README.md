@@ -1,13 +1,22 @@
 # MILESTONE2_08 - COVID Hub
 Ilham Pratama 16520005              : Bab I (original & revised)
+
 Muhammad Davin Dzimar 16520014      : Supervise, strukturisasi repository, Bab V (original)
+
 Christine Hutabarat 16520101        : Bab IV (original & revised)
+
 Umar Hakim 16520128                 : Bab III (original), Mockup design
+
 Steven 16520203                     : Data surveying, develop web presentasi
+
 Agnes Tamara 16520241               : Bab III (original & revised)
+
 Mohamad Hilmi Rinaldi 16520254      : Bab I (original & revised), Bab II (revised)
+
 Vito Christian Samudra 16520267     : Bab II (original)
+
 Muhammad Ardi Avicenna 16520283     : Bab IV (original)
+
 Thirafi Najwan Kurniatama 165204    : Front-end, back-end, technical of solution
 
 # Link Website Presentasi
