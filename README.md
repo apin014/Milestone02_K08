@@ -20,7 +20,7 @@ Muhammad Ardi Avicenna 16520283     : Bab IV (original)
 Thirafi Najwan Kurniatama 16520446  : Front-end, back-end, technical of solution
 
 # Link Website Presentasi
-https://stevenwen81.github.io/Presentasi_Milestone_SPARTA/
+https://loopfree.github.io/Presentasi_Milestone_SPARTA/
 
 # How to Run
 
